@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TeamCup 2026 — Spielplan &amp; Ergebnisse</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: Arial, Helvetica, sans-serif; margin: 0; background:#f4f6f8; color:#1a1a1a; }
+  .wrap { max-width: 60rem; margin: 0 auto; padding: 2rem 1.2rem 3rem; }
+  header { border-bottom: 3px solid #0b5; padding-bottom: .6rem; margin-bottom: 1.4rem; }
+  h1 { font-size: 1.7rem; margin: 0; }
+  .sub { color:#667; margin:.3rem 0 0; }
+  .cards { display:grid; grid-template-columns: repeat(auto-fill, minmax(15rem,1fr)); gap: .9rem; margin-top:1.4rem; }
+  a.card { display:block; text-decoration:none; color:inherit; background:#fff; border:1px solid #d7dde3;
+           border-radius:10px; padding:1rem 1.1rem; transition:box-shadow .12s, transform .12s; }
+  a.card:hover { box-shadow:0 4px 14px rgba(0,0,0,.10); transform:translateY(-2px); border-color:#0b5; }
+  a.card strong { display:block; font-size:1.05rem; margin-bottom:.25rem; color:#0a4; }
+  a.card span { font-size:.9rem; color:#556; }
+  .all { background:#0b5; border-color:#0b5; }
+  .all strong, .all span { color:#fff; }
+  .all span { opacity:.9; }
+  footer { margin-top:2.2rem; font-size:.82rem; color:#889; }
+  @media (prefers-color-scheme: dark){
+    body{background:#161a1d;color:#e6e6e6}
+    a.card{background:#1e2429;border-color:#333}
+    a.card strong{color:#3ddc84}
+    .sub,a.card span,footer{color:#9aa4ad}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>TeamCup 2026</h1>
+    <p class="sub">Spielplan &amp; Ergebnisse — Übersicht</p>
+  </header>
+
+  <div class="cards">
+    <a class="card all" href="Alle_Ansichten_TeamCup_2026.html">
+      <strong>📋 Gesamtübersicht</strong>
+      <span>Alle Ansichten auf einer Seite</span>
+    </a>
+    <a class="card" href="Alle_Ansichten_TeamCup_2026.html#byDate">
+      <strong>Spielplan nach Tag</strong>
+      <span>Chronologisch: Datum, Platz, Uhrzeit, Begegnung</span>
+    </a>
+    <a class="card" href="Alle_Ansichten_TeamCup_2026.html#byId">
+      <strong>Spielplan nach Match-Nummer</strong>
+      <span>Alle Spiele nach Spielnummer</span>
+    </a>
+    <a class="card" href="Alle_Ansichten_TeamCup_2026.html#player">
+      <strong>Startzeiten nach Spieler</strong>
+      <span>Pro Spieler: alle Spiele mit Datum/Platz/Uhrzeit</span>
+    </a>
+    <a class="card" href="Alle_Ansichten_TeamCup_2026.html#team">
+      <strong>Startzeiten nach Team</strong>
+      <span>Pro Mannschaft: alle Spiele</span>
+    </a>
+    <a class="card" href="Alle_Ansichten_TeamCup_2026.html#groups">
+      <strong>Gruppen-Ergebnisse</strong>
+      <span>Tabellenstand der Vorrunden-Gruppen</span>
+    </a>
+  </div>
+
+  <footer>TeamCup 2026 · automatisch erzeugt aus dem TeamCup-Admin-Tool</footer>
+</div>
+</body>
+</html>
